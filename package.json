@@ -1,0 +1,28 @@
+{
+  "name": "ticketsystem",
+  "version": "1.0.0",
+  "description": "TicketSystem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BallyTseng/TicketSystem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BallyTseng/TicketSystem/issues"
+  },
+  "homepage": "https://github.com/BallyTseng/TicketSystem#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^5.1.3",
+    "bootstrap-vue": "^2.21.2",
+    "jquery": "^3.6.0",
+    "vue": "^2.6.14",
+    "vuex": "^3.6.2"
+  }
+}

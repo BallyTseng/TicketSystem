@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section Styles
+{
+    <style type="text/css">
+        .box {
+              display: flex;
+              align-items: center;
+              justify-content: space-around;
+        }
+
+        .title {
+            font-size:20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+}
+
+<div id="app">
+    <div class="title"> Choose Your Role</div>
+    <div class="container box">
+        <a class="btn btn-primary btn-lg" href="@Url.Action("Login","Home", new { Role="QA" })">QA</a>
+        <a class="btn btn-primary btn-lg" href="@Url.Action("Login","Home", new { Role="RD" })">RD</a>
+    </div>
+</div>
+
+@section scripts {
+    <script src="~/Scripts/Home/Index.js" asp-append-version="true"></script>
+}
+
+
